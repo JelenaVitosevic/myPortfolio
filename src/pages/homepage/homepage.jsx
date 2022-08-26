@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from '../../components/contact'
-import Layout from '../../components/layout/Layout'
+import Layout from '../../components/layouts/Layout'
 import styles from './Homepage.module.css'
 import jecacv from './jecacv.png'
 

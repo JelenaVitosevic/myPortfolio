@@ -1,14 +1,9 @@
 import React from 'react';
 import styles from './Header.module.css';
-import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Menu from '../menu';
-import {useState} from 'react';
+import MenuContainer from '../menuContainer';
 
 function Header() {
-
-  const [dropdown, setDropdown] = useState(false);
-
   return (
                 <header className={styles.header}>
                     <div className={styles.wrapper}>
@@ -16,10 +11,9 @@ function Header() {
                             <Link to="/" className={styles.logo}>LOGO</Link>
                         </div>
                         <div className={styles.navWrapper}>
-                            <FaBars className={styles.navIcon} onClick={() => setDropdown(!dropdown)}/>
+                           <MenuContainer/>
                         </div>  
                     </div>
-                    {dropdown && <Menu/>}
                 </header>
   )
 }
