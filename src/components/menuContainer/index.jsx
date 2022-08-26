@@ -4,13 +4,13 @@ import Menu from '../menu';
 import styles from './MenuContainer.module.css'
 
 
-function MenuContainer() {
+function MenuContainer({items}) {
   const [dropdown, setDropdown] = useState(false);
 
   return (
     <>
     <FaBars className={styles.navIcon} onClick={() => setDropdown(!dropdown)}/>
-    {dropdown && <Menu/>}
+    {dropdown && <Menu list={items}/>}
     </>
   )
 }

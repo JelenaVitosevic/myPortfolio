@@ -13,12 +13,9 @@
     height: fit-content;
 }
 
-.nav {
+.sidebarList {
     display: flex;
     flex-direction: column;
-}
-
-.sidebarList {
     margin: 0;
     list-style: none;
     padding: 20px;
