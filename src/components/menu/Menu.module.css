@@ -1,0 +1,38 @@
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.menuContainer {
+    border: 2px solid #f45b69;
+    border-radius: 20px;
+    position: fixed;
+    height: fit-content;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarList {
+    margin: 0;
+    list-style: none;
+    padding: 20px;
+}
+
+.sidebarItemLink {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.sidebarItemLink:hover {
+    text-stroke: 1px #f45b69;
+    -webkit-text-stroke: 1px #f45b69;
+    color: #f45b69;
+}
