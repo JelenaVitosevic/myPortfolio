@@ -12,7 +12,7 @@ function About() {
           <div className={styles.leftContent}>
               <div className={styles.item}>
                 <h3 className={styles.tittle}>NAME</h3>
-                <p>Jelena Vitosevic</p>
+                <p className={styles.info}>Jelena Vitosevic</p>
               </div>
               <div className={styles.item}>
                 <h3 className={styles.tittle}>BIRTHDAY</h3>

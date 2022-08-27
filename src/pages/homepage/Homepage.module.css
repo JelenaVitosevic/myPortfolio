@@ -64,13 +64,13 @@
     padding-top: 10px;
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 60%;
     justify-content: space-between;
 }
 
 .button {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: none;
     background-color: #f45b69;

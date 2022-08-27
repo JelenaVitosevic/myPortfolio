@@ -1,0 +1,60 @@
+.white {
+    color: #fff;
+    font-size: 15px;
+}
+
+.pink {
+    color: #f45b69;
+    font-weight: 600;
+}
+
+.container {
+    background-color: #04303b;
+    color: #fff;
+}
+
+.headContainer {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-left: 2px solid #f45b69;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.uvuci {
+    padding-left: 20px;
+}
+
+.bodyContainer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-left: 2px solid #f45b69;
+    padding: 10px;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.tag {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.image {
+    background-color: #f45b69;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.imgWrapper {
+    display: flex;
+    align-items: center;
+}
