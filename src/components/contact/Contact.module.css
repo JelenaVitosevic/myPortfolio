@@ -4,33 +4,21 @@
     justify-content: space-around;
     height: 50%;
     align-items: center;
+    gap: 10px;
 }
-
-
 
 .line {
-    height: 200px;
+    height: 100px;
     width: 2px;
     background-color: #f45b69;
-}
-
-
-
-.text {
-    transform: rotate(+90deg);
-    font-size: 25px;
-    letter-spacing: 2px;
-    color: #f45b69;
-    margin: 0;
-    padding: 0;
 }
 
 .icons {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .icon {

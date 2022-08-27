@@ -7,10 +7,11 @@
 }
 
 .menuContainer {
-    border: 2px solid #f45b69;
-    border-radius: 20px;
+    border-right: 2px solid #f45b69;
     position: fixed;
     height: fit-content;
+    margin-top: 10px;
+    text-align: right;
 }
 
 .sidebarList {
@@ -18,18 +19,17 @@
     flex-direction: column;
     margin: 0;
     list-style: none;
-    padding: 20px;
+    padding: 10px;
 }
 
 .sidebarItemLink {
     text-decoration: none;
     color: #fff;
-    font-size: 25px;
+    font-size: 15px;
     letter-spacing: 3px;
 }
 
 .sidebarItemLink:hover {
-    text-stroke: 1px #f45b69;
     -webkit-text-stroke: 1px #f45b69;
     color: #f45b69;
 }

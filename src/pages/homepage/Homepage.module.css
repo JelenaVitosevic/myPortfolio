@@ -1,10 +1,16 @@
 .container {
-    
     background-color: #04303b;
 }
 
+/*Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+    .contentWrapper{
+        gap: 2px;
+    }
+}
+
 .content{
-    height: calc(100vh - 159px);
+    height: calc(100vh - 77.5px);
     width: 80%;
     display: flex;
     flex-direction: row;
@@ -19,22 +25,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    gap: 5px;
-    
+    margin: 0 auto;    
 }
 
 .title {
     color: #fff;
-    font-weight: 600;
-    font-size: 150px;
-    line-height: 120px;
+    font-weight: 650;
+    font-size: 60px;
+    line-height: 50px;
     letter-spacing: 3px;
 }
 
 .text1 {
     color: #f45b69;
-    font-size: 50px;
+    font-size: 20px;
     width: 100%;
     text-align: center;
     margin: 0;
@@ -43,45 +47,44 @@
 
 .text2{
     color: #fff;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     width: 60%;
-    padding-top: 20px;
+    padding-top: 10px;
     letter-spacing: 3px;
 
 }
 
-.img {
-  
+.image {
     margin: 0 auto;
-    width: 100%;
+    width: 630px;
 }
 
 .buttonWrapper {
-    padding-top: 40px;
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 40%;
     justify-content: space-between;
 }
 
 .button {
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: none;
     background-color: #f45b69;
     color: #fff;
     cursor: pointer;
     text-transform: lowercase;
-    font-size: 25px;
+    font-size: 12px;
     letter-spacing: 2px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .button:hover {
     background-color: #04303b;
-    border: 5px solid #f45b69;
+    border: 2px solid #f45b69;
     color: #fff;
     font-weight: 600;
     

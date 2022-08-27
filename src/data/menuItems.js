@@ -27,21 +27,11 @@ export const menuItems = [
     },
     {
         id: 6,
-        tittle: 'experience',
-        url: '/experience'
-    },
-    {
-        id: 7,
-        tittle: 'education',
-        url: '/education'
-    },
-    {
-        id: 8,
         tittle: 'education roadmap',
         url: '/educationRoadmap'
     },
     {
-        id: 9,
+        id: 7,
         tittle: 'contact',
         url: '/contact'
     },
