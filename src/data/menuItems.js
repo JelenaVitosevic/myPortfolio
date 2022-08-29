@@ -17,8 +17,8 @@ export const menuItems = [
     },
     {
         id: 4,
-        tittle: 'resime',
-        url: '/resime'
+        tittle: 'resume',
+        url: '/resume'
     },
     {
         id: 5,

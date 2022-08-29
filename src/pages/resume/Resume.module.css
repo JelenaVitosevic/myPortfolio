@@ -11,6 +11,7 @@
 .container {
     background-color: #04303b;
     color: #fff;
+    letter-spacing: 3px;
 }
 
 .headContainer {
@@ -22,6 +23,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .uvuci {
@@ -54,7 +56,34 @@
     margin: 10px;
 }
 
-.imgWrapper {
+.pinkContentWrapper {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+.button {
+    color: #f45b69;
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
 }

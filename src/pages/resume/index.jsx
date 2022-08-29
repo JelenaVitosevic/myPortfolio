@@ -1,8 +1,22 @@
 import React from 'react'
 import Layout from '../../components/layouts/Layout'
 import styles from './Resume.module.css'
+import { FaArrowDown, FaDownload, FaUpload } from 'react-icons/fa'
 
-function ResimePage() {
+function ResumePage() {
+
+  const onButtonClick = () => {
+    fetch('JelenaVitosevic_CV.pdf').then(response => {
+      response.blob().then(blob => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'JelenaVitosevic_CV.pdf';
+        alink.click();
+      })
+    })
+  }
+
   return (
     <Layout>
     <div className={styles.container}>
@@ -100,8 +114,16 @@ function ResimePage() {
               <span className={styles.white}>{'>'}</span>
             </p> 
           </div>  
-          <div className={styles.imgWrapper}>
-            <div className={styles.image}></div>
+          <div className={styles.pinkContentWrapper}>
+            <div className={styles.imgWrapper}>
+              <div className={styles.image}></div>
+            </div>
+            <div className={styles.iconWrapper}>
+              
+            </div>
+            <div className={styles.buttonWrapper}>
+              <button className={styles.button} onClick={onButtonClick}>download<FaDownload className={styles.icon}/></button>
+            </div>
           </div>
       </div>  
 
@@ -244,4 +266,4 @@ function ResimePage() {
   )
 }
 
-export default ResimePage
+export default ResumePage
