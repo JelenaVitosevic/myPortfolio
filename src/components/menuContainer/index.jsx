@@ -8,10 +8,10 @@ function MenuContainer({items}) {
   const [dropdown, setDropdown] = useState(false);
 
   return (
-    <>
-    <FaBars className={styles.navIcon} onClick={() => setDropdown(!dropdown)}/>
-    {dropdown && <Menu list={items}/>}
-    </>
+    <div className={styles.menu}>
+      <FaBars className={styles.navIcon} onClick={() => setDropdown(!dropdown)}/>
+      {dropdown && <Menu list={items}/>}
+    </div>
   )
 }
 

@@ -1,0 +1,37 @@
+.contentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    letter-spacing: 3px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #f45b69;
+}
+
+.info {
+    font-size: 15px;
+    color: #fff;
+}
+
+.imgWrapper {
+    width: 50%;
+    
+}
+
+.image {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
