@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Contact from '../../components/contact'
 import Layout from '../../components/layouts/Layout'
 import styles from './Homepage.module.css'
@@ -19,9 +20,9 @@ function Homepage() {
                   an app with delicious and healthy recipes. 
               </p>
               <div className={styles.buttonWrapper}>
-                <button className={styles.button}>MY RESUME</button>
-                <button className={styles.button}>MY PROJECTS</button>
-                <button className={styles.button}>MY SKILLS</button>
+                <Link to='/resume'><button className={styles.button}>MY RESUME</button></Link>
+                <Link to='/projects'><button className={styles.button}>MY PROJECTS</button></Link>
+                <Link to='/skills'><button className={styles.button}>MY SKILLS</button></Link>
               </div>
             </div>
           </div>

@@ -12,26 +12,11 @@ export const menuItems = [
     },
     {
         id: 3,
-        tittle: 'projects',
-        url: '/projects'
-    },
-    {
-        id: 4,
-        tittle: 'resume',
-        url: '/resume'
-    },
-    {
-        id: 5,
-        tittle: 'skills',
-        url: '/skills'
-    },
-    {
-        id: 6,
         tittle: 'education roadmap',
         url: '/educationRoadmap'
     },
     {
-        id: 7,
+        id: 4,
         tittle: 'contact',
         url: '/contact'
     },
