@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layouts/Layout'
 import styles from './About.module.css'
+import jelenaRoadmap from '../../components/images/avatars/Jelena1.png'
 
 
 function About() {
@@ -58,6 +59,7 @@ function About() {
             </p>
           </div>
           <div className={styles.imgWrapper}>
+            <img src={jelenaRoadmap} className={styles.avatar}></img>
           </div>
         </div>
       </div>

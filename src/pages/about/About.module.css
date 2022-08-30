@@ -69,11 +69,12 @@
     margin-top: 10px;
 }
 
-.img {
-    margin-top: 40px;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+.avatar {
+    display: flex;
+    height: 130px;
+    width: 75px;
     margin: 0 auto;
 }
+
+
 

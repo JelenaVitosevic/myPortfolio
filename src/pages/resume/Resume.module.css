@@ -47,12 +47,20 @@
     font-size: 15px;
 }
 
-.image {
+.imgWrapper {
     background-color: #f45b69;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    height: 130px;
+    width: 75px;
 }
 
 .pinkContentWrapper {
