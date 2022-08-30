@@ -153,7 +153,7 @@ function ResumePage() {
                 <span className={styles.white}>Developed Github Finder app to find Github users using React and Github REST API</span>
             </p>
             <p className={styles.tag}>
-                <span className={styles.white}>'Developed Password checker app (for checking the number of uppercase letters, lowercase letters, numbers, and special characters) in vanilla JavaScript, vanilla React without JSX, vanilla React with JSX, React with Create React App and Express.js'</span>
+                <span className={styles.white}>Developed Password checker app (for checking the number of uppercase letters, lowercase letters, numbers, and special characters) in vanilla JavaScript, vanilla React without JSX, vanilla React with JSX, React with Create React App and Express.js</span>
             </p>
             <p className={styles.tag}>
                 <span className={styles.white}>Developed static landing page for clients in the Bus transportation industry.</span>
