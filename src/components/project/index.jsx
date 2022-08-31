@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styles from './Project.module.css'
 
 function Project({image, title, info}) {
@@ -8,8 +9,11 @@ function Project({image, title, info}) {
         <img src={image} alt="project homepage" className={styles.image}/>
       </div>
       <div className={styles.textWrapper}>
-        <h3 className={styles.title}>{title}</h3>
+        <a href="https://github.com/JelenaVitosevic/cirillo_" target="_blank" className={styles.link}>
+          <h3 className={styles.title}>{title}</h3>
+        </a>
         <p className={styles.info}>{info}</p>
+        <a className={styles.link}>read more</a>
       </div>
     </div>
   )

@@ -14,10 +14,19 @@
     letter-spacing: 3px;
 }
 
+.link {
+    color: #f45b69;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #fff;
+}
+
 .title {
     font-weight: 400;
     font-size: 20px;
-    color: #f45b69;
 }
 
 .info {
@@ -26,7 +35,7 @@
 }
 
 .imgWrapper {
-    width: 50%;
+    width: 40%;
     
 }
 

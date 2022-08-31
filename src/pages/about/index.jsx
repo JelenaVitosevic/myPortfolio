@@ -1,7 +1,8 @@
 import React from 'react'
 import Layout from '../../components/layouts/Layout'
 import styles from './About.module.css'
-import jelenaRoadmap from '../../components/images/avatars/Jelena1.png'
+import treasure from '../../components/images/avatars/treasure.png'
+import { Link } from 'react-router-dom'
 
 
 function About() {
@@ -59,7 +60,7 @@ function About() {
             </p>
           </div>
           <div className={styles.imgWrapper}>
-            <img src={jelenaRoadmap} className={styles.avatar}></img>
+            <Link to='/educationRoadmap'><img src={treasure} className={styles.avatar}></img></Link>
           </div>
         </div>
       </div>

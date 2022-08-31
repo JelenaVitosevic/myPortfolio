@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../../components/layouts/Layout'
 import styles from './Resume.module.css'
 import { FaArrowDown, FaDownload, FaUpload } from 'react-icons/fa'
-import jelena from '../../components/images/avatars/Jelena3.png'
+import happy from '../../components/images/avatars/happy.png'
 
 
 function ResumePage() {
@@ -118,7 +118,7 @@ function ResumePage() {
           </div>  
           <div className={styles.pinkContentWrapper}>
             <div className={styles.imgWrapper}>
-              <img src={jelena} alt="" className={styles.avatar}/>
+              <img src={happy} alt="" className={styles.avatar}/>
             </div>
             <div className={styles.iconWrapper}>
               

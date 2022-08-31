@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import styles from './Contact.module.css'
 import Layout from '../../components/layouts/Layout';
-import jelena from '../../components/images/avatars/Jelena1.png'
+import smiling from '../../components/images/avatars/smiling.png'
 
 function ContactPage() {
 
@@ -23,7 +23,7 @@ function ContactPage() {
   return (
     <Layout>
       <div className={styles.container}>
-        <form ref={form} className={styles.form} onSubmit={sendEmail} autocomplete="off">
+        <form ref={form} className={styles.form} onSubmit={sendEmail} autoComplete="off">
           <label className={styles.label}>name:</label>
           <input type="text" name="user_name" className={styles.input}/>
           <label className={styles.label}>email:</label>
@@ -37,7 +37,7 @@ function ContactPage() {
         <div className={styles.meWrapper}>
         <p className={styles.text}>Hey you, if you want to collaborate with me, send me an email and I will answer you as soon as possible!</p>
         <div className={styles.imgWrapper}>
-          <img src={jelena} alt="" className={styles.image} />
+          <img src={smiling} alt="" className={styles.image} />
         </div>
         </div>
       </div>
