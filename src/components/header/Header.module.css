@@ -13,12 +13,9 @@
 }
 
 .logo {
-    color: #f45b69;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 25px;
-    text-transform: lowercase;
     cursor: pointer;
+    width: 30px;
+    height: 30px;
 }
 
 .logo:hover {
