@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Contact from '../../components/contact'
-import Layout from '../../components/layouts/Layout'
+import ContactBar from '../../components/contactBar'
+import Layout from '../../components/layout'
 import styles from './Homepage.module.scss'
 import jecacv from './jecacv.png'
 
@@ -10,7 +10,7 @@ function Homepage() {
     
         <Layout>
           <div className={styles.content}>
-            <Contact/>
+            <ContactBar/>
             <div className={styles.contentWrapper}>
               <img className={styles.image} src={jecacv}></img>
               <h1 className={styles.title}>Hello I'm Jelena Vitosevic</h1>

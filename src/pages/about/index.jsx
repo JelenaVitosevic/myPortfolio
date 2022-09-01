@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../../components/layouts/Layout'
+import Layout from '../../components/layout'
 import styles from './About.module.scss'
 import treasure from '../../components/images/avatars/treasure.png'
 import { Link } from 'react-router-dom'

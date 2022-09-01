@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './Contact.module.scss'
+import styles from './ContactBar.module.scss'
 import { FaEnvelope, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
-function Contact() {
+function ContactBar() {
   return (
     <div className={styles.followWrapper}>
         <div className={styles.line}></div>
@@ -17,4 +17,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default ContactBar

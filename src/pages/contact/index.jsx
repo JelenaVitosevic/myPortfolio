@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import styles from './Contact.module.scss'
-import Layout from '../../components/layouts/Layout';
+import Layout from '../../components/layout'
 import smiling from '../../components/images/avatars/smiling.png'
 
 function ContactPage() {

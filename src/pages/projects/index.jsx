@@ -3,7 +3,7 @@ import styles from './Projects.module.scss'
 import Project from '../../components/project'
 import cirillo from '../../components/images/projects/cirillo/cirillo.png'
 import { projects } from '../../data/projects'
-import Layout from '../../components/layouts/Layout'
+import Layout from '../../components/layout'
 
 function ProjectsPage() {
   return (

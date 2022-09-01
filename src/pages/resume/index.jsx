@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../../components/layouts/Layout'
+import Layout from '../../components/layout'
 import styles from './Resume.module.scss'
 import { FaArrowDown, FaDownload, FaUpload } from 'react-icons/fa'
 import happy from '../../components/images/avatars/happy.png'

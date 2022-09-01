@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Skills.module.scss'
-import Layout from '../../components/layouts/Layout'
+import Layout from '../../components/layout'
 import skills2 from '../../components/images/skillsImg/skills2.png'
 import skills1 from '../../components/images/skillsImg/skills1.png'
 
