@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import ContactBar from '../../components/contactBar'
 import Layout from '../../components/layout'
 import styles from './Homepage.module.scss'
-import jecacv from './jecacv.png'
+import jecacv from '../../components/images/homepageImg/Jelena.png'
 
 function Homepage() {
   return (
