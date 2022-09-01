@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { FaBars } from 'react-icons/fa';
-import Menu from '../menu';
+import Menu from '../../atoms/menu';
 import styles from './MenuContainer.module.scss'
 
 

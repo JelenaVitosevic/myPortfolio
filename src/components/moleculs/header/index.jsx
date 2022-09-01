@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './Header.module.scss';
 import { Link } from 'react-router-dom';
 import MenuContainer from '../menuContainer';
-import { menuItems } from '../../data/menuItems';
-import logo from '../images/homepageImg/logo.png'
+import { menuItems } from '../../../data/menuItems';
+import logo from '../../images/homepageImg/logo.png'
 
 function Header() {
   return (

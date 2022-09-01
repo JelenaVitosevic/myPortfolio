@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../header'
-import Footer from '../footer'
+import Header from '../moleculs/header'
+import Footer from '../atoms/footer'
 import styles from './Layout.module.scss'
 
 function Layout({children}) {
