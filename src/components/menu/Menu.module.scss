@@ -1,0 +1,38 @@
+@import "../../colors.scss";
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+
+    .menuContainer {
+        position: fixed;
+        margin-top: 10px;
+        text-align: right;
+
+        .sidebarList {
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            list-style: none;
+            padding: 10px;
+            gap: 10px;
+        }
+        
+        .sidebarItemLink {
+            text-decoration: none;
+            color: $white;
+            font-size: 15px;
+            letter-spacing: 3px;
+            border-right: 2px solid $pink;
+            padding-right: 10px;
+        }
+        
+        .sidebarItemLink:hover {
+            -webkit-text-stroke: 1px $pink;
+            color: $pink;
+        }
+    }
+}
+

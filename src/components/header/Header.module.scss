@@ -1,0 +1,27 @@
+@import "../../colors.scss";
+
+.header {
+    width: 100%;
+
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+
+        .logo {
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+        }
+        
+        .logo:hover {
+            color: $white;
+            cursor: pointer;
+        }
+    }
+}
+
+

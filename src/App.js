@@ -1,17 +1,12 @@
-import Header from "./components/header/Header";
+import "./App.scss"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Homepage from "./pages/homepage/homepage";
 import About from "./pages/about";
 import ProjectsPage from "./pages/projects";
 import ResumePage from './pages/resume';
 import SkillsPage from './pages/skills';
-import ExperiencePage from './pages/experience';
-import EducationPage from './pages/education';
 import EducationRoadmap from './pages/educationRoadmap';
 import ContactPage from './pages/contact';
-
-
-
 
 function App() {
   return (
@@ -22,8 +17,6 @@ function App() {
           <Route path='/projects' element={<ProjectsPage/>} />
           <Route path='/resume' element={<ResumePage/>} />
           <Route path='/skills' element={<SkillsPage/>} />
-          <Route path='/experience' element={<ExperiencePage/>} />
-          <Route path='/education' element={<EducationPage/>} />
           <Route path='/educationRoadmap' element={<EducationRoadmap/>} />
           <Route path='/contact' element={<ContactPage/>} />
        </Routes>

@@ -1,13 +1,11 @@
 import React from 'react'
-import styles from './Contact.module.css'
-import { FaEnvelope, FaLinkedinIn, FaGithub, FaWhatsapp } from 'react-icons/fa'
+import styles from './Contact.module.scss'
+import { FaEnvelope, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 function Contact() {
   return (
     <div className={styles.followWrapper}>
-        <div className={styles.textWrapper}>
-        </div>
         <div className={styles.line}></div>
         <div className={styles.icons}>
             <Link className={styles.link} to='/contact'><FaEnvelope className={styles.icon}/></Link>

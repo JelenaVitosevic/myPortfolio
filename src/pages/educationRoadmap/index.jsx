@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './EducationRoadmap.module.css'
+import styles from './EducationRoadmap.module.scss'
 import Layout from '../../components/layouts/Layout'
 import happy from '../../components/images/avatars/happy.png'
 import smiling from '../../components/images/avatars/smiling.png'

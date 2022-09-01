@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Contact from '../../components/contact'
 import Layout from '../../components/layouts/Layout'
-import styles from './Homepage.module.css'
+import styles from './Homepage.module.scss'
 import jecacv from './jecacv.png'
 
 function Homepage() {

@@ -1,0 +1,71 @@
+@import "../../colors.scss";
+
+.content{
+    height: calc(100vh - 77.5px);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    .borderWrapper {
+        border-left: 2px solid $pink;
+    }
+    
+    .leftContent {
+        width: 350px;
+        padding: 10px;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        letter-spacing: 2px;
+    
+    }
+    
+    .tittle {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .info {
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    
+    .rightContentWrapper {
+        width: 70%;
+    }
+    
+    
+    .tittleAboutMe {
+        font-weight: 400;
+        font-size: 25px;
+        color: $pink;
+        text-align: center;
+        letter-spacing: 3px;
+        padding-top: 5px;
+    }
+    
+    .textAboutMe{
+        margin: 0 auto;
+        width: 80%;
+        color: $white;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 5px;
+        letter-spacing: 3px;    
+    }
+    
+    .imgWrapper {
+        width: 250px;
+        height: 250px;    
+        margin: 0 auto;
+    }
+}
+
+
+
+
+

@@ -1,10 +1,12 @@
+@import "../../colors.scss";
+
 .navIcon {
-    color: #f45b69;
+    color: $pink;
     width: 25px;
     height: 25px;
     cursor: pointer;
 }
 
 .navIcon:hover {
-    color: #fff;
+    color: $white;
 }

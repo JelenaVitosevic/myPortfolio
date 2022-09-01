@@ -1,0 +1,49 @@
+@import "../../colors.scss";
+
+.contentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+
+    .textWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        letter-spacing: 3px;
+
+        .link {
+            color: $pink;
+            text-decoration: none;
+            cursor: pointer;
+            
+            .title {
+                font-weight: 400;
+                font-size: 20px;
+            }
+        }
+        
+        .link:hover {
+            color: $white;
+        }
+
+        
+        .info {
+            font-size: 15px;
+            color: $white;
+        }
+    }
+    
+    .imgWrapper {
+        width: 40%;
+
+        .image {
+            display: flex;
+            width: fit-content;
+            height: fit-content;
+        }
+    }  
+}
+

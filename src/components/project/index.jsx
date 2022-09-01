@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import styles from './Project.module.css'
+import styles from './Project.module.scss'
 
 function Project({image, title, info}) {
   return (

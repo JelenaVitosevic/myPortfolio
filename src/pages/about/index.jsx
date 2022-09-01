@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../../components/layouts/Layout'
-import styles from './About.module.css'
+import styles from './About.module.scss'
 import treasure from '../../components/images/avatars/treasure.png'
 import { Link } from 'react-router-dom'
 
@@ -10,46 +10,46 @@ function About() {
     <Layout>
       <div className={styles.content}>
         <div className={styles.leftContentWrapper}>
-        <div className={styles.borderWrapper}>
-          <div className={styles.leftContent}>
-              <div className={styles.item}>
-                <h3 className={styles.tittle}>NAME</h3>
-                <p className={styles.info}>Jelena Vitosevic</p>
-              </div>
-              <div className={styles.item}>
-                <h3 className={styles.tittle}>BIRTHDAY</h3>
-                <p className={styles.info}>08.03.1997.</p>
-              </div>
-              <div className={styles.item}>
-                <h3 className={styles.tittle}>ROLE</h3>
-                <p className={styles.info}>Frontend Developer</p>
-              </div>
-              <div className={styles.item}>
-                <h3 className={styles.tittle}>EMAIL</h3>
-                <p className={styles.info}>vitosevicjelena83997@gmail.com</p>
-              </div>
-              <div className={styles.item}>
-                <h3 className={styles.tittle}>WEBSITE</h3>
-                <p className={styles.info}>www.jelenavitosevic.com</p>
-              </div>
-              <div className={styles.item}>
-                <h3 className={styles.tittle}>LOCATION</h3>
-                <p className={styles.info}>Belgrade, Serbia</p>
-              </div>
-              <div className={styles.item}>
-                <h3 className={styles.tittle}>LANGUAGES</h3>
-                <p className={styles.info}>Serbian Native <br></br> English</p>
-              </div>
-              <div className={styles.item}>
-                <h3 className={styles.tittle}>EDUCATION</h3>
-                <p className={styles.info}>Zemun Gymnasium, <br></br> science and mathematics department <br></br> <br></br>Faculty of sport and physical education, <br></br> University of Belgrade</p>
-              </div>
-              <div className={styles.item}>
-                <h3 className={styles.tittle}>INTERESTS</h3>
-                <p className={styles.info}>UI/UX <br></br> Cooking and inventing new healthy recepies <br></br> Travel and exploring nature</p>
+          <div className={styles.borderWrapper}>
+            <div className={styles.leftContent}>
+                <div className={styles.item}>
+                  <h3 className={styles.tittle}>NAME</h3>
+                  <p className={styles.info}>Jelena Vitosevic</p>
+                </div>
+                <div className={styles.item}>
+                  <h3 className={styles.tittle}>BIRTHDAY</h3>
+                  <p className={styles.info}>08.03.1997.</p>
+                </div>
+                <div className={styles.item}>
+                  <h3 className={styles.tittle}>ROLE</h3>
+                  <p className={styles.info}>Frontend Developer</p>
+                </div>
+                <div className={styles.item}>
+                  <h3 className={styles.tittle}>EMAIL</h3>
+                  <p className={styles.info}>vitosevicjelena83997@gmail.com</p>
+                </div>
+                <div className={styles.item}>
+                  <h3 className={styles.tittle}>WEBSITE</h3>
+                  <p className={styles.info}>www.jelenavitosevic.com</p>
+                </div>
+                <div className={styles.item}>
+                  <h3 className={styles.tittle}>LOCATION</h3>
+                  <p className={styles.info}>Belgrade, Serbia</p>
+                </div>
+                <div className={styles.item}>
+                  <h3 className={styles.tittle}>LANGUAGES</h3>
+                  <p className={styles.info}>Serbian Native <br></br> English</p>
+                </div>
+                <div className={styles.item}>
+                  <h3 className={styles.tittle}>EDUCATION</h3>
+                  <p className={styles.info}>Zemun Gymnasium, <br></br> science and mathematics department <br></br> <br></br>Faculty of sport and physical education, <br></br> University of Belgrade</p>
+                </div>
+                <div className={styles.item}>
+                  <h3 className={styles.tittle}>INTERESTS</h3>
+                  <p className={styles.info}>UI/UX <br></br> Cooking and inventing new healthy recepies <br></br> Travel and exploring nature</p>
+                </div>
               </div>
             </div>
-          </div>
         </div>
         <div className={styles.rightContentWrapper}>
           <div className={styles.textAboutMeWrapper}>

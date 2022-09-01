@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Menu.module.css'
+import styles from './Menu.module.scss'
 import { Link } from 'react-router-dom'
 
 function Menu({list}) {

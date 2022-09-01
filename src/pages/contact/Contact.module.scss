@@ -1,3 +1,5 @@
+@import "../../colors.scss";
+
 .container {
     height: calc(100vh - 77.5px);
     width: 80%;
@@ -13,22 +15,22 @@
     gap: 10px;
     padding-left: 10px;
     margin: auto 0;
-    border-left: 2px solid #f45b69;
+    border-left: 2px solid $pink;
 
 }
 
 .label {
     font-weight: 400;
     font-size: 20px;
-    color: #f45b69;
+    color: $pink;
     letter-spacing: 3px;
 }
 
 .input {
-    background-color: #04303b;
-    border: 2px solid #fff;
+    background-color: $green;
+    border: 2px solid $white;
     width: 70%;
-    color: #fff;
+    color: $white;
     letter-spacing: 3px;
     padding: 5px;
     font-size: 15px;
@@ -38,10 +40,10 @@
 }
 
 .inputMessage {
-    background-color: #04303b;
-    border: 2px solid #fff;
+    background-color: $green;
+    border: 2px solid $white;
     width: 80%;
-    color: #fff;
+    color: $white;
     letter-spacing: 3px;
     font-size: 15px;
     padding: 5px;
@@ -59,17 +61,17 @@
 
 .button {
     width: fit-content;
-    background-color: #04303b;
+    background-color: $green;
     border: none;
     cursor: pointer;
     font-weight: 600;
     font-size: 20px;
-    color: #f45b69;
+    color: $pink;
     letter-spacing: 3px;
 }
 
 .button:hover {
-    color: #fff;
+    color: $white;
 }
 
 .meWrapper {
@@ -80,7 +82,7 @@
 }
 
 .text {
-    color: #fff;
+    color: $white;
     letter-spacing: 3px;
     font-size: 20px;
 }

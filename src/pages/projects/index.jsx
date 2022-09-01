@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Projects.module.css'
+import styles from './Projects.module.scss'
 import Project from '../../components/project'
 import cirillo from '../../components/images/projects/cirillo/cirillo.png'
 import { projects } from '../../data/projects'
