@@ -12,7 +12,7 @@ function ProjectsPage() {
         <div className={styles.projectsWrapper}>
           {projects.map((item) => {
             return (
-              <Project id={item.id} image={cirillo} title={item.title} info={item.info}/>
+              <Project key={item.id} image={cirillo} title={item.title} info={item.info} link={"https://github.com/JelenaVitosevic/cirillo_"}/>
             )
           })}
         </div>
